@@ -14,7 +14,7 @@
   <remove-project name="platform/build/release" />
   <project path="build/release" name="AOSPA/android_build_release" remote="aospa" />
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
+  <project path="build/soong" name="android_build_soong" remote="aospa-psyche" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
